@@ -1,0 +1,638 @@
+h1,
+		h2 {
+			color: #5b0e5c;
+		}
+
+		header#topo .cover {
+			background-color: #5b0e5c;
+		}
+
+		header#topo .info h1 {
+			color: #000000;
+		}
+
+		header#topo .info .icones a {
+			color: #000000;
+			border-color: #000000;
+		}
+
+		header#topo .cover .logo {
+			background: #000000;
+		}
+
+		header#topo #menuCategorias {
+			background: #000000;
+		}
+
+		header#topo .categorias a {
+			border-top-color: #000000;
+		}
+
+		footer {
+			background: #5b0e5c;
+		}
+
+		footer#carrinho .container .icone span {
+			color: #5b0e5c;
+		}
+
+		.btn,
+		a.voltar,
+		.btnSair,
+		.btnFidelidade,
+		.btnGoogle,
+		.btnEmail,
+		.btnSemCadastro {
+			background: #5b0e5c;
+		}
+
+		.qtdeProduto i:hover {
+			color: #000000;
+		}
+
+		.lista .item .col .nomeProduto {
+			color: #5b0e5c;
+		}
+
+		main#lista .produtos .item a:hover {
+			border: 2px solid #000000;
+		}
+
+		main#lista h1,h2 {
+			color: #000000
+		}
+
+		#pedido .entrega .radio label input[type="radio"]:checked,
+		#pedido .entrega .radio label:hover {
+			background: #5b0e5c;
+		}
+
+		#pedido .pagamentos input[type="radio"]:checked+label::before,
+		#detalhesProduto .info2 .opcoes input[type="checkbox"]:checked+label::before,
+		#pedido .trocarPontos input[type="checkbox"]:checked+label::before {
+			background-color: #5b0e5c;
+			border: 2px solid #5b0e5c;
+		}
+
+		.selecionado {
+			border: 2px solid #5b0e5c;
+		}
+
+		#meuCarrinho button.fechar,
+		#rastreamento .registro span.passou {
+			background: #000000;
+		}
+
+		span.estoque i {
+			color: #5b0e5c;
+		}
+
+    h1,
+		h2 {
+			color: #5b0e5c;
+		}
+
+		header#topo .cover {
+			background-color: #5b0e5c;
+		}
+
+		header#topo .info h1 {
+			color: #000000;
+		}
+
+		header#topo .info .icones a {
+			color: #000000;
+			border-color: #000000;
+		}
+
+		header#topo .cover .logo {
+			background: #000000;
+		}
+
+		header#topo #menuCategorias {
+			background: #000000;
+		}
+
+		header#topo .categorias a {
+			border-top-color: #000000;
+		}
+
+		footer {
+			background: #5b0e5c;
+		}
+
+		footer#carrinho .container .icone span {
+			color: #5b0e5c;
+		}
+
+		.btn,
+		a.voltar,
+		.btnSair,
+		.btnFidelidade,
+		.btnGoogle,
+		.btnEmail,
+		.btnSemCadastro {
+			background: #5b0e5c;
+		}
+
+		.qtdeProduto i:hover {
+			color: #000000;
+		}
+
+		.lista .item .col .nomeProduto {
+			color: #5b0e5c;
+		}
+
+		main#lista .produtos .item a:hover {
+			border: 2px solid #000000;
+		}
+
+		main#lista h1,h2 {
+			color: #000000
+		}
+
+		#pedido .entrega .radio label input[type="radio"]:checked,
+		#pedido .entrega .radio label:hover {
+			background: #5b0e5c;
+		}
+
+		#pedido .pagamentos input[type="radio"]:checked+label::before,
+		#detalhesProduto .info2 .opcoes input[type="checkbox"]:checked+label::before,
+		#pedido .trocarPontos input[type="checkbox"]:checked+label::before {
+			background-color: #5b0e5c;
+			border: 2px solid #5b0e5c;
+		}
+
+		.selecionado {
+			border: 2px solid #5b0e5c;
+		}
+
+		#meuCarrinho button.fechar,
+		#rastreamento .registro span.passou {
+			background: #000000;
+		}
+
+		span.estoque i {
+			color: #5b0e5c;
+		}
+
+.wf-force-outline-none[tabindex="-1"]:focus {
+  outline: none;
+}
+
+@media print {
+  .w-richtext:empty {
+    display: none;
+  }
+}
+
+/* roulette.css - Estilos para a Roleta BurgerBrutusBurguers */
+
+/* Fontes do tema */
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Poppins:wght@400;500;700&display=swap');
+
+/* Container Principal do Modal da Roleta */
+.roulette-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75); /* Fundo mais escuro */
+    display: none; /* Começa escondido */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Acima de outros conteúdos */
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+    backdrop-filter: blur(3px); /* Efeito de desfoque no fundo */
+    -webkit-backdrop-filter: blur(3px);
+}
+
+.roulette-modal-content {
+    background: url('images/madeira.jpg') repeat; /* Textura de madeira (ajuste o caminho se necessário) */
+    background-color: #fdf7e8; /* Cor de fundo fallback */
+    border: 6px solid #4a2c1a; /* Borda marrom escura */
+    border-radius: 15px;
+    padding: 25px 35px; /* Mais padding */
+    max-width: 550px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    animation: fadeInModal 0.4s ease-out;
+}
+
+@keyframes fadeInModal {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+
+.roulette-modal-content h1 {
+    font-family: 'Poppins', cursive;
+    color: #d10000; /* Vermelho BurgerBrutusBurguers */
+    font-size: 2.5rem; /* Maior */
+    margin-bottom: 20px;
+    /* text-shadow: 2px 2px 0px #ffcc00; Sombra amarela */
+    line-height: 1.2;
+}
+
+/* Botão de Fechar o Modal Principal */
+.roulette-close-button {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 2.5rem;
+    color: #4a2c1a; /* Marrom escuro */
+    cursor: pointer;
+    line-height: 1;
+    padding: 5px;
+    transition: color 0.2s;
+    z-index: 10; /* Garantir que fique acima de outros elementos do modal */
+}
+.roulette-close-button:hover {
+    color: #d10000; /* Vermelho ao passar o mouse */
+}
+
+
+/* Estilos da Roleta */
+.wheel-container {
+    position: relative;
+    width: 360px; /* Um pouco maior */
+    height: 360px;
+    margin: 0 auto 25px auto; /* Centralizado */
+    max-width: 100%; /* Ajuste para telas menores */
+}
+
+.wheel {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border: 8px solid #4a2c1a; /* Borda marrom grossa */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3), inset 0 0 15px rgba(0, 0, 0, 0.2);
+    transition: transform 5.5s cubic-bezier(0.15, 0.75, 0.25, 1); /* Animação mais suave */
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+}
+
+.segment-text {
+position: absolute;
+left: 50%;
+top: 50%;
+font-family: 'Poppins', sans-serif;
+font-weight: 700;
+font-size: 13px;
+color: white;
+text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+line-height: 1.2;
+text-align: center;
+white-space: nowrap;
+user-select: none;
+backface-visibility: hidden;
+pointer-events: none;
+width: 100px; /* Comprimento maior do texto */
+height: 25px;
+display: flex;
+align-items: center;
+justify-content: center;
+transform-origin: center;
+padding: 0;
+margin: 0;
+letter-spacing: 0.3px; /* Melhor legibilidade */
+text-wrap: wrap;
+}
+
+.segment-text i {
+font-size: 15px;
+flex-shrink: 0;
+margin-right: 4px;
+}
+
+
+.wheel-center {
+    position: absolute;
+    width: 60px; /* Maior */
+    height: 60px;
+    background-color: #ffcc00; /* Amarelo BurgerBrutusBurguers */
+    border: 4px solid #4a2c1a; /* Borda marrom */
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Ponteiro da Roleta */
+.wheel-pointer {
+    position: absolute;
+    top: -18px; /* Ajustado para novo formato */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    filter: drop-shadow(0 3px 3px rgba(0, 0, 0, 0.5));
+}
+
+/* Nova forma do ponteiro (semelhante a uma gota ou pino) */
+.wheel-pointer-shape {
+    width: 28px;
+    height: 36px;
+    background-color: #d10000; /* Vermelho */
+    border: 2px solid #4a2c1a; /* Borda marrom */
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%; /* Forma de gota */
+    position: relative;
+    /* Sombra interna para dar profundidade */
+    box-shadow: inset 0 -4px 5px rgba(0,0,0,0.2);
+}
+/* Pequeno brilho no ponteiro */
+.wheel-pointer-shape::before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 6px;
+    width: 6px;
+    height: 6px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    box-shadow: 0 0 3px rgba(255, 255, 255, 0.5);
+}
+
+
+/* Estilos do Botão Girar */
+.spin-button {
+    background-color: #d10000; /* Vermelho BurgerBrutusBurguers */
+    color: white;
+    font-family: 'Poppins', cursive; /* Fonte de destaque */
+    font-size: 1.5rem; /* Maior */
+    padding: 15px 35px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0 4px 0px #8b0000; /* Sombra para efeito 3D */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block; /* Para centralizar corretamente */
+}
+
+.spin-button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    background-color: #a0522d; /* Marrom quando desabilitado */
+     box-shadow: 0 2px 0px #5e2f0e;
+     transform: translateY(2px);
+}
+
+.spin-button:not(:disabled):hover {
+    background-color: #a00000;
+    transform: translateY(-2px); /* Efeito de levantar */
+    box-shadow: 0 6px 0px #8b0000;
+}
+.spin-button:not(:disabled):active {
+    transform: translateY(2px); /* Efeito de pressionar */
+    box-shadow: 0 2px 0px #8b0000;
+}
+
+
+@keyframes pulse { /* Animação pulse mantida */
+    0% { transform: scale(1); }
+    50% { transform: scale(1.03); }
+    100% { transform: scale(1); }
+}
+
+.animate-pulse {
+    animation: pulse 1.5s infinite;
+}
+
+/* ---- Estilos do Modal INTERNO de Prêmio ---- */
+.prize-modal-overlay {
+    position: fixed; /* Fica sobre o modal da roleta */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6); /* Overlay um pouco mais claro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1100; /* Acima do modal da roleta */
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+    padding: 15px; /* Padding para evitar colar nas bordas */
+}
+
+.prize-modal-overlay.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.prize-modal-content {
+    background-color: #ffcc00; /* Fundo Amarelo */
+    border: 5px solid #4a2c1a; /* Borda Marrom */
+    max-width: 400px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 25px;
+    text-align: center;
+    transform: scale(0.95);
+    transition: transform 0.3s ease-out;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+.prize-modal-overlay.show .prize-modal-content {
+    transform: scale(1);
+}
+
+.prize-modal-header {
+    margin-bottom: 20px;
+}
+
+.prize-modal-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    color: #d10000; /* Vermelho */
+    margin-bottom: 5px;
+     text-shadow: 1px 1px 0 #fff;
+}
+
+.prize-modal-description {
+    font-size: 1rem;
+    color: #4a2c1a; /* Marrom */
+}
+
+.prize-display-box {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 2px dashed #d10000; /* Borda tracejada vermelha */
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+.prize-display-box span {
+    display: block;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    color: #555;
+}
+.prize-display-box strong {
+    font-size: 1.6rem;
+    color: #d10000;
+    font-weight: 700;
+    display: flex; /* Para alinhar ícone e texto */
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+ .prize-display-box strong i {
+     font-size: 1.5rem; /* Tamanho do ícone no prêmio */
+ }
+
+.prize-modal-footer {
+    display: flex;
+    justify-content: center; /* Centraliza o botão */
+}
+
+.prize-primary-button {
+    background-color: #28a745; /* Verde (pode ser ajustado) */
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s;
+    box-shadow: 0 3px 0 #1c7430;
+}
+
+.prize-primary-button:hover {
+    background-color: #218838;
+    transform: translateY(-1px);
+     box-shadow: 0 4px 0 #1c7430;
+}
+.prize-primary-button:active {
+    transform: translateY(1px);
+     box-shadow: 0 2px 0 #1c7430;
+}
+
+/* --- Estilos Toast e Confete (adaptados) --- */
+.toast {
+    position: fixed;
+    bottom: 20px; /* Mudado para baixo */
+    left: 50%; /* Centralizado */
+    transform: translateX(-50%); /* Centralizado */
+    background-color: rgba(40, 29, 20, 0.9); /* Marrom escuro semi-transparente */
+    color: #ffcc00; /* Texto amarelo */
+    padding: 12px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    max-width: 320px;
+    z-index: 1200; /* Acima de tudo */
+    opacity: 0;
+    visibility: hidden; /* Começa escondido */
+    /* Transição vindo de baixo */
+    transform: translate(-50%, 30px);
+    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.toast.show {
+    opacity: 1;
+    visibility: visible; /* Mostra */
+    transform: translate(-50%, 0); /* Sobe para a posição */
+}
+.toast-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+}
+.toast-description {
+    font-size: 0.9rem;
+    opacity: 0.9;
+}
+
+.confetti-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    overflow: hidden;
+    z-index: 99999999999999; /* Acima do modal da roleta, abaixo do modal do prêmio */
+}
+.confetti-particle {
+    position: absolute;
+    opacity: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 0; /* Quadrados/Retângulos */
+    transform-style: preserve-3d; /* Para rotação 3D */
+}
+@keyframes fall {
+    0% { opacity: 1; transform: translateY(-10vh) rotateZ(0deg) rotateX(0deg); }
+    100% { opacity: 0; transform: translateY(110vh) rotateZ(720deg) rotateX(360deg); } /* Rotaciona em 2 eixos */
+}
+@keyframes sway {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(calc(var(--sway-amount) * -1)); } /* Usa variável CSS */
+    100% { transform: translateX(var(--sway-amount)); }
+}
+
+/* Media query para telas menores */
+ @media (max-width: 480px) {
+     .roulette-modal-content {
+         padding: 20px 15px;
+     }
+     .roulette-modal-content h1 {
+         font-size: 2rem;
+     }
+     .wheel-container {
+         width: 280px;
+         height: 280px;
+     }
+     .wheel-center {
+         width: 50px;
+         height: 50px;
+     }
+      .wheel-center img {
+          width: 30px;
+          height: 30px;
+      }
+     .segment-text {
+         font-size: 12px; /* Reduz fonte em telas pequenas */
+         gap: 2px;
+     }
+      .segment-text i {
+          font-size: 13px;
+      }
+     .spin-button {
+         font-size: 1.2rem;
+         padding: 12px 25px;
+     }
+      .prize-modal-title {
+          font-size: 1.6rem;
+      }
+      .prize-display-box strong {
+          font-size: 1.3rem;
+      }
+       .prize-display-box strong i {
+           font-size: 1.2rem;
+       }
+ }
+
+ .prize-status {
+    text-align:center;
+ }
